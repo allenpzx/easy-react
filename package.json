@@ -1,0 +1,36 @@
+{
+  "name": "easy-react",
+  "displayName": "easy-react",
+  "description": "an easy react develop tool for myself",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:allenpzx/easy-react.git"
+  },
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "javascriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}

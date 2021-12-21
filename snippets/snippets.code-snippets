@@ -1,0 +1,13 @@
+{
+  "react function component": {
+    "prefix": "rfc",
+    "body": [
+      "import React, { memo } from 'react';",
+      "const FComponent = props => {",
+      "  return <></>;",
+      "};",
+      "export default memo(FComponent);"
+    ],
+    "description": "generate a react function component."
+  }
+}
