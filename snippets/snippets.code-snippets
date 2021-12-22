@@ -9,5 +9,55 @@
       "export default memo(FComponent);"
     ],
     "description": "generate a react function component."
+  },
+  "react forward ref function component": {
+    "prefix": "rrfc",
+    "body": [
+      "import React, { forwardRef, memo } from 'react';",
+      "const Component = forwardRef((props, ref: any) => {",
+      "  return <div ref={ref}></div>;",
+      "});",
+      "export default memo(Component);"
+    ],
+    "description": "generate a forward ref react function component."
+  },
+  "react class component": {
+    "prefix": "rcc",
+    "body": [
+      "import React from 'react';",
+      "class Component extends React.Component {",
+      "render() {",
+      "    return <div></div>;",
+      "  }",
+      "}",
+      "export default Component;"
+    ],
+    "description": "generate a react class component."
+  },
+  "react connect class component": {
+    "prefix": "rccc",
+    "body": [
+      "import React from 'react';",
+      "import { connect } from 'react-redux';",
+      "class Component extends React.Component {",
+      "  render() {",
+      "    return <div></div>;",
+      "  }",
+      "}",
+      "const mapStateToProps = () => ({});",
+      "const mapDispatchToProps = () => ({});",
+      "export default connect(mapStateToProps, mapDispatchToProps)(Component);"
+    ],
+    "description": "generate a connected react class component."
+  },
+  "await time": {
+    "prefix": "!await",
+    "body": ["await new Promise(resolve => setTimeout(resolve, ${0:time}));"],
+    "description": "generate a connected react class component."
+  },
+  "For Loop": {
+    "prefix": ["!for", "!fl"],
+    "body": ["for (const ${2:element} of ${1:array}) {", "\t$0", "}"],
+    "description": "A for loop."
   }
 }
