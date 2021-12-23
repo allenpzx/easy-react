@@ -59,5 +59,41 @@
     "prefix": ["!for", "!fl"],
     "body": ["for (const ${2:element} of ${1:array}) {", "\t$0", "}"],
     "description": "A for loop."
+  },
+  "For Loop2": {
+    "prefix": ["!fls"],
+    "body": [
+      "for (const ${2:element} of ${1|array,nums,list|}) {",
+      "\t$0",
+      "}"
+    ],
+    "description": "A for loop."
+  },
+  "useState": {
+    "prefix": ["!us"],
+    "body": ["const [${1:data}, set${2:Data}] = useState();"],
+    "description": "useState."
+  },
+  "useEffect": {
+    "prefix": ["!ue"],
+    "body": [
+      "  useEffect(() => {",
+      "",
+      "    return () => {",
+      "      ",
+      "    }",
+      "  })"
+    ],
+    "description": "useEffect."
+  },
+  "random 6": {
+    "prefix": ["random"],
+    "body": ["${RANDOM}"],
+    "description": "random 6"
+  },
+  "uuid": {
+    "prefix": ["uuid"],
+    "body": ["${UUID}"],
+    "description": "uuid"
   }
 }

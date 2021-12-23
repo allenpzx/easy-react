@@ -10,7 +10,7 @@
 
 ### vscode 插件有哪些能力
 太多了有空可以仔细阅读 [能力](https://code.visualstudio.com/api)
-### snippet 有哪些能力
+### snippet 插件有哪些能力
 [能力](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax)
 
 ### 开发

@@ -1,1 +1,1 @@
-"easy-react". For easy develop react project.
+Personally developed gadgets
