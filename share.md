@@ -82,3 +82,5 @@ vsce unpublish (publisher name).(extension name)
 [用户安装指定版本](https://code.visualstudio.com/updates/v1_30#_install-previous-versions)
 
 [WEB版](https://vscode.dev/)
+
+[samples](https://github.com/microsoft/vscode-extension-samples)
